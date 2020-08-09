@@ -6,17 +6,17 @@
         "storage"
     ],
     "icons": {
-        "128": "Icons/icon128.png",
-        "48": "Icons/icon48.png",
-        "16": "Icons/icon16.png"
+        "128": "src/Assets/Images/Icons/icon128.png",
+        "48": "src/Assets/Images/Icons/icon48.png",
+        "16": "src/Assets/Images/Icons/icon16.png"
     },
     "browser_action": {
         "default_title": "HUJI Moodle Notifier",
-        "default_popup": "index.html",
+        "default_popup": "src/index.html",
         "default_icon": {
-            "128": "Icons/icon128.png",
-            "48": "Icons/icon48.png",
-            "16": "Icons/icon16.png"
+            "128": "src/Assets/Images/Icons/icon128.png",
+            "48": "src/Assets/Images/Icons/icon48.png",
+            "16": "src/Assets/Images/Icons/icon16.png"
         }
     },
     "manifest_version": 2
