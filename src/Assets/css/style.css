@@ -16,3 +16,11 @@
     margin: 0;
     line-height: 1
 }
+
+.task{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 400px;
+}
