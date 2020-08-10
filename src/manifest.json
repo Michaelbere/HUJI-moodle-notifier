@@ -1,6 +1,7 @@
 {
     "name": "HUJI Moodle Notifier",
     "version": "1.0",
+    "manifest_version": 2,
     "description": "Tracks a HUJI moodle user tasks and allows the user to set notification timings for each course (or fallback to default settings)",
     "permissions": [
         "storage"
@@ -19,5 +20,10 @@
             "16": "icon16.png"
         }
     },
-    "manifest_version": 2
+    "content_scripts": [
+        {
+          "matches": ["https://moodle2.cs.huji.ac.il/*"],
+          "js": ["jquery.min.js", "content.js"]
+        }
+      ]
 }
